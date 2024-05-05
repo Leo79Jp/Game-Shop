@@ -36,8 +36,9 @@ nav{
 .carrito{
     width: 25px;
     height: 24px;
-    color: red;
+    color: #D01418;
     text-decoration: none;
+    font-size: 25px;
 }
 .logo{
     width: 183px;
@@ -82,12 +83,6 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* gap: 20px; */
-    /* width: 865px; */
-    /* height: 377px; */
-    /* top: 652px;
-    left: 94px; */
-    /* position: absolute; */
 }
 .div_elementos{
     display: flex;
@@ -102,7 +97,6 @@ nav{
     display: inline-block;
     padding-top: 30px;
     margin-top: 20px;
-
 }
 .p_pd{
     font-size: 30px;
@@ -115,12 +109,10 @@ nav{
 .art1{
     top: 707px;
     left: 94px;
-    /* margin-right: 26px; */
 }
 .art2{
     top: 707px;
     left: 309px;
-    /* margin-right: 26px; */
 }
 .art3{
     top: 707px;
@@ -131,23 +123,28 @@ nav{
 }
 hr{
     border: #222222 0,2px solid;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.p_precio{
+.div_elementos p{
+    margin-left: 20px;
+}
+.div_elementos p:nth-child(3){
     font-weight: 400;
     color: #000000;
     font-size: 20px;
     line-height: 23.44px;
     margin-bottom: 4px;
 }
-.p_cuotas{
+
+.div_elementos p:nth-child(4){
     font-weight: 400;
     color: #000000;
     font-size: 13px;
     line-height: 15.23px;
     margin-bottom: 3px;
 }
-.p_envio{
+.div_elementos p:nth-child(5){
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 10px;
     line-height: 11.72px;
@@ -156,11 +153,16 @@ hr{
 }
 /* ---------------------- section productos estrellas  ---------------------*/
 .section_banner{
-    width: 844px;
-    height: 275px;
-    top: 1114px;
-    left: 95px;
-    position: absolute;
+    margin: 85px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_section{
+    max-width: 844px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .p_pe{
     font-size: 30px;
@@ -168,79 +170,75 @@ hr{
     height: 35px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 20px;
+}
+.elementos2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .img_pd4{
     width: 360px;
     height: 135px;
-    margin-right: 110px;
 }
 .article_pe{
 display: inline-block;
 }
-.p_sillas{
-    position: absolute;
-    top: 108px;
-    left: 200px;
-    font-size: 25px;
-    height: 30px;
-    font-weight: 400;
-    color: #F3F3F3;
-}
-.p_computadoras{
-    position: absolute;
-    top: 108px;
-    right: 15px;
-    font-size: 25px;
-    height: 30px;
-    font-weight: 400;
-    color: #F3F3F3;
-}
+/* ---------------------- section footer  ---------------------*/
 
-footer{
-    width: 1024px;
+.section_footer{
     height: 216px;
     background-color: #222222;
-    position: absolute;
-    top: 1389px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.logo1{
-    justify-content: space-around;
-    margin-left: 75px;
 }
 .div_footer{
-    width: auto;
-    }    
-.p_redes{
-    justify-content: space-evenly;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-left: 75px;
     margin-right: 75px;
+
+}
+.logo1{
+    width: 183px;
+    height: 40px;
+}
+.p_redes{
     font-size: 25px;
     font-weight: 400;
     color: #F3F3F3;
     width: auto;
     margin-bottom: 20px;
 }
+.div_ico{
+    display: flex;
+    justify-content: space-between;
+}
+.div_ico i{
+    font-size: 25px;
+}
 .span_ico{
     width: 168px;
-    display: flex;
-    justify-content: space-around;
+}
+.ico_tw{
+    color: #14AED0;
+    text-decoration: none;
+}
+.ico_fa{
+    color: #1476D0;
+    text-decoration: none;
+}
+.ico_in{
+    color: #CE0CFF;
+    text-decoration: none;
+}
 
-}
-.ico{
-    width: 28px;
-    height: 32px;
-}
-.div_button{
-    background-color: #C4C4C4;
-    position: absolute;
-    top: 1605px;
-    display: inline-block;
-    width: 1024px;
-}
 .p_button{
+    background-color: #C4C4C4;
+    max-width: 1024px;
     text-align: center;
     line-height: 25px;
     font-weight: 400;
@@ -250,4 +248,12 @@ footer{
     nav{
         display: none;
     }
+    .div_footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 40px;
+    }
+    
 }

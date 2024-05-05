@@ -265,9 +265,6 @@ hr{
     font-size: 10px;
 }
 @media (max-width: 768px){
-    nav{
-        /* display: none; */
-    }
     .div_footer{
         display: flex;
         flex-direction: column;

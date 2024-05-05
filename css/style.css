@@ -48,6 +48,16 @@ nav{
 .nav_li{
     display: inline;
 }
+.menu{
+    display: none;
+    width: 25px;
+    height: 24px;
+    color: #F3F3F3;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
 /* ---------------------- sectioon slide  ---------------------*/
 .section_slide{
     background: url("../img/img 1.png");
@@ -256,7 +266,7 @@ hr{
 }
 @media (max-width: 768px){
     nav{
-        display: none;
+        /* display: none; */
     }
     .div_footer{
         display: flex;
@@ -270,7 +280,15 @@ hr{
     }
     .img_pd5{
         width: 320px;
-    
+    }
+    .menu{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .carrito{
+        display: none;
     }
         
     

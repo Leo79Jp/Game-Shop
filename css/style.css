@@ -176,13 +176,23 @@ hr{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    /* padding: 10px; */
+    width: 360px;
 }
-.img_pd4{
+
+.img_pd4 {
     width: 360px;
     height: 135px;
 }
+.img_pd5{
+    width: 360px;
+    height: 135px;
+
+}
 .article_pe{
-display: inline-block;
+    display: inline-block;
+    /* width: 200px; */
+
 }
 /* ---------------------- section footer  ---------------------*/
 
@@ -255,5 +265,13 @@ display: inline-block;
         margin-right: 10px;
         gap: 40px;
     }
+    .img_pd4 {
+        width: 320px;
+    }
+    .img_pd5{
+        width: 320px;
+    
+    }
+        
     
 }

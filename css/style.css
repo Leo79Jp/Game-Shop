@@ -2,17 +2,14 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
 }
 /* ---------------------- sectioon header  ---------------------*/
-body{
-    background-color: #F3F3F3;
-    max-width: 1024px;
-}
 header{
+    font-family: 'Roboto', sans-serif;
     background-color: #222222;
     height: 100px;
-    max-width: 1024px;
+    /* max-width: 1024px; */
+    width: 100%;
     align-items: center;
 }
 .section_header{
@@ -20,6 +17,8 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    width: 100%;
+
 }
 nav{
     display: flex;
@@ -59,8 +58,15 @@ nav{
 }
 
 /* ---------------------- sectioon slide  ---------------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+}
+
 .section_slide{
     background: url("../img/img 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -204,13 +210,15 @@ hr{
 /* ---------------------- section footer  ---------------------*/
 
 .section_footer{
+    font-family: 'Roboto', sans-serif;
     height: 216px;
     background-color: #222222;
     display: flex;
     align-items: center;
 }
 .div_footer{
-    width: 1024px;
+    /* width: 1024px; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -255,7 +263,8 @@ hr{
 
 .p_button{
     background-color: #C4C4C4;
-    max-width: 1024px;
+    /* max-width: 1024px; */
+    width: 100%;
     text-align: center;
     line-height: 25px;
     font-weight: 400;

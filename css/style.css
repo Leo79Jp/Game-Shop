@@ -183,7 +183,7 @@ hr{
 }
 .elementos2{
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     /* padding: 10px; */
@@ -287,10 +287,10 @@ hr{
     .carrito{
         display: none;
     }
-    .elementos2{
+   /* .elementos2{
     display: flex;
     align-items: center;
-    }
+    }*/
 }    
     
 }}

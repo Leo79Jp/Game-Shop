@@ -31,7 +31,22 @@ nav{
     list-style: none;
     text-decoration: none;
     margin-left: 10px;
+    position: relative;
 }
+.nav_a:before{
+    content:'';
+    background: #D01418;
+    position:absolute;
+    bottom:-10px; 
+    width: 0%;
+    height: 2px;
+    transition:  0.5s;
+    
+}
+.nav_a:hover::before{
+    width: 100%;
+}
+
 .carrito{
     width: 25px;
     height: 24px;
